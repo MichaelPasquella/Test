@@ -1,8 +1,10 @@
 h1
-{
+  {
     color: red;
-}
+  }
   .container
-{
-
-}
+  {
+    background-color: #9C4FFS;
+    width: 600px;
+    margin:auto;
+  }
