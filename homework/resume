@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--This is a HTML 5-->
+  <html lang="en" dir="ltr">
+  <!-- This is the head of my website -->
+    <head>
+      <meta charset="utf-8">
+      <title>BASIC HTML</title>
+      <meta name="author" content="Michael Pasquella">
+      <meta name="description" content="Basic HTML example">
+      <meta name="keywords" content="HTML, JS, CSS, Basic example"
+    </head>
+    <!-- This is the body of my website -->
+    <body>
+      <!-- This is my header -->
+        <header>
+          <nav>
+            <ul>
+              <li>  <a href="https://www.apple.com/">Apple</a>  </li>
+              <li>  <a href="https://twitter.com/home">Twitter</a>  </li>
+              <li>  <a href="https://www.grailed.com">Grailed</a>  </li>
+            <ul>
+          </nav>
+        </header>
+
+
+      <section>
+
+<!-- Use aside to create side bars -->
+        <aside>
+          <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+          </ul>
+          <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+          <ul>
+        </aside>
+
+<!-- We use articles magazines articles, posts -->
+        <article>
+          <h1>Michael Pasquella<hl>
+          <h2>mvpasquella@yahoo.com</h2>
+          <p>
+            <strong>Work Experience</strong>
+              <li>May 2017-August 2018,  Lifeguard Lake Forest Club Pool</li>
+              <li>May 2019-August 2019, Basin, Lake Forest Beach</li>
+          </p>
+
+          <p>
+            <strong>Skills and Strengths</strong>
+              <li>Final Cut Studio</li>
+              <li>FL Studio</li>
+              <li>Adobe Premier</li>
+              <li>Photoshop</li>
+              <li>Camera and Film Operation</li>
+              <li>Public Speaking</li>
+
+          </p>
+
+          <p>
+            <strong>Relevant Coursework</strong>
+              <li>New Media</li>
+              <li>Journalism</li>
+              <li>Graphic Design</li>
+              <li>Web Lab</li>
+              <li>Public Speaking</li>
+              <li>Writing for Digital Age</li>
+              <li>Understanding Media</li>
+
+          </p>
+
+
+
+          <img src="img/Yandhi.jpg" alt="Yandhi"> width="215p"
+        <article>
+
+
+
+
+      </section>
+
+
+      <section>
+        <address>
+          <ul>
+            <li>Name: Michael Pasquella</li>
+            <li>phone number: 123-321-1327</li>
+            <li>emial: yayaya@gmail.com</li>
+      </section>
+
+
+      <table>
+        <tr>
+          <th>human years</th>
+          <th>dog years</th>
+        </tr>
+        <tr>
+          <!-- these are table cells -->
+          <td>1</td>
+          <td>7</td>
+        </tr>
+      </table>
+
+    <body>
+  <html>
