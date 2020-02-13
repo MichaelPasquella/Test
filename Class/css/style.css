@@ -1,16 +1,13 @@
-h1
-  {
+h1{
     color: red;
     font-family: 'Open Sans', sans-serif;
   }
 
 
-  .container
-  {
-    margin: auto;
+  .container{
+    margin:auto;
     padding: 30px;
-    background-color: rgb(45, 255, 249);
-    width: auto;
+    width: 50%;
     box-shadow: 5px 10px 10px 10px rgb(255, 245, 193);
     border-radius: 8px
   }
@@ -20,8 +17,43 @@ h1
   }
 
 
-  #Yandhi
-  {
-    width: 10%;
+.Yandhi{
+    width: 35%;
     margin: auto;
   }
+
+.sidebar{
+    float: left;
+    margin: auto;
+    padding: 30px;
+    width: 10%;
+    box-shadow: 5px 10px 10px 10px rgb(255, 245, 193);
+    border-radius: 20px
+}
+
+.navigation{
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.horizontalline{
+  padding-top: 20px;
+}
+
+.horizontalline li{
+  display: inline;
+  margin: 40px;
+  padding:
+}
+
+.horizontalline li a{
+  color: grey;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.horizontalline li a:hover{
+  color: red;
+}
