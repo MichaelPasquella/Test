@@ -1,6 +1,8 @@
-.h1{
-  color: red;
-  font-family: 'Open Sans', sans-serif;
+
+
+.container h1{
+   box color: hsla(55, 90%, 60%, 1.0);
+   background-image: paint(hollowHighlights, stroke, 2px);
 }
 
 
@@ -9,23 +11,31 @@
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 80px;
+  font-family: 'Odibee Sans', cursive;
+
 }
 
 .horizontalline{
   padding-top: 20px;
+
 }
 
 .horizontalline li{
   display: inline;
   margin: 40px;
+
 }
 
 .horizontalline li a{
-  color: grey;
+  color: blue;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: 'Odibee Sans', cursive;
 }
 
 .horizontalline li a:hover{
-  color: red;
+  color: green;
+}
+
+.article{
+  color: blue
 }
