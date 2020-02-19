@@ -200,9 +200,10 @@ transition-timing-function: ease-in-out;
 
 }
 
-.color:hover
+.boxanimation:hover
 {
-   background-color: #bdeff7;
+  transition: background-color 1000ms ease-in 1000ms;
+  background-color: #bdeff7;
 }
 
 
