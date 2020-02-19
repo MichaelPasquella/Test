@@ -5,7 +5,9 @@
    background-image: paint(hollowHighlights, stroke, 2px);
 }
 
-
+.Me {
+  
+}
 .navigation{
   display: table;
   margin: 0 auto;
