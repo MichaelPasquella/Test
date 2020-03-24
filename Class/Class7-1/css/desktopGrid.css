@@ -50,8 +50,12 @@ background-color: pink;
 {
   background-color: lightgreen;
 }
-/* Hope you get the idea by now.. */
+
 .basicGrid div:nth-child(4)
+{
+  background-color: lightgray;
+
+.basicGrid div:nth-child(5)
 {
   background-color: lightgray;
 }

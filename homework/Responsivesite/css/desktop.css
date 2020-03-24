@@ -1,0 +1,134 @@
+
+.navbar{
+    background-color: black;
+    padding: 30px;
+    font-size: 25pt;
+    font-family: 'Permanent Marker', cursive;
+    position: sticky;
+    top: 0;
+}
+
+.navbar:hover{
+  color: lightblue;
+
+}
+
+
+.body{
+
+  background-image: radial-gradient();
+  background-attachment: fixed; /* The background will remain fixed */
+  background-position: center;
+}
+
+.text{
+  font-size: 16pt;
+
+}
+
+.navigation{
+  float: center;
+  align-items: center;
+  display: inline;
+
+}
+
+.horizontalline{
+  float: center;
+  color: white;
+  padding-top: 0px;
+  padding: 0px;
+  font-size: 40pt;
+  font-family: 'Permanent Marker', cursive;
+  position: relative;
+}
+
+
+  .container{
+    font-size: 25pt;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    padding: 30px;
+    width: 50%;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 30%;
+  }
+
+.hover{
+  font-size: 16pt;
+}
+
+
+.hover:hover{
+  color: lightblue;
+
+}
+
+
+
+.basicGrid
+{
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin: auto;
+  padding: 5px;
+  font-size: 25pt;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  width: 53%;
+  border-radius: 8px;
+  display: grid;
+  grid-auto-flow: column;
+  /* THIS DEFINES THE HEIGHT OF YOUR ROWS */
+  grid-template-rows: auto;
+  /* 1 fr will be relative to the width size of your row, and the amounts of columns you have */
+  grid-template-columns:1fr 2fr 2fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+
+}
+
+
+
+
+/* This is how you get only the firs div instead of affecting all of them */
+.basicGrid div:first-child
+{
+background-color: black;
+}
+/* the secon child div */
+.basicGrid div:nth-child(2)
+{
+  background-color: purple;
+}
+/* the third child div */
+.basicGrid div:nth-child(3)
+{
+  background-color: lightblue;
+}
+/* Hope you get the idea by now.. */
+.basicGrid div:nth-child(4)
+{
+  background-color: lightgray;
+}
+
+.footer
+  {
+      height: 20vh;
+      font-size: 25pt;
+      font-family: 'Permanent Marker', cursive;
+
+  }
+  .footer div
+  {
+
+    width: 100%;
+    margin:  auto;
+    color: white;
+
+  }
