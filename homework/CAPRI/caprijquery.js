@@ -20,8 +20,16 @@ $(document).ready(function() {
 		'overlayShow'	:	false
 	});
 
+
+
 $("#_hide").click(function(){
   $(".w3-third div:first-child p").hide();
-  });
+});
 
+$("#_show").click(function(){
+  $(".gridContent div:first-child p").show();
+});
+
+$("#_toggle").click( function(){
+  $(".gridContent div:nth-child(2) p").toggle();
 });
