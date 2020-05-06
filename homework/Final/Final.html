@@ -1,1 +1,268 @@
-hey
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="final.css">
+<script src="Final/final.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="responsiveslides.min.js"></script>
+<!-- Jquery script source -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+ <!-- stylesheet and plug in for Fancybox -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+ <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165570630-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165570630-1');
+</script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+</style>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">The Roman Study Abroad Guide</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#culture" class="w3-bar-item w3-button">CULTURAL DIFFERENCES</a>
+      <a href="#explore" class="w3-bar-item w3-button">EXPLORING ROME</a>
+      <a href="#travel" class="w3-bar-item w3-button">TRAVEL TIPS</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i>FIRST HANDERS</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#culture" onclick="w3_close()" class="w3-bar-item w3-button">CULTURAL DIFFERENCES</a>
+  <a href="#explore" onclick="w3_close()" class="w3-bar-item w3-button">EXPLORING ROME</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">FIRST HANDERS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<div>
+  <slider class="slider" id="home">
+    <slide class="slide"><p>Party</p></slide>
+    <slide class="slide"><p>Study</p></slide>
+    <slide class="slide"><p>Travel</p></slide>
+    <slide class="slide"><p>Explore</p></slide>
+  </slider>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- Promo Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="about">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>MAXIMIZE YOUR STUDY ABROAD EXPERIENCE</h3>
+      <p>Take our notes, we just went through it.<br>This website will provide you with the best tips and tricks on how to be a fun and safe "yeehaw study abroad" in the multo bello Roma!</p>
+      <p><a href="#team" class="w3-button w3-black"><i class="fa fa-th"> </i>MEET THE FIRST HANDERS</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="IMG_0275.JPG" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">1+</span>
+    <br>Years of Experience
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">100+</span>
+    <br>Bars and Restaurants Visited
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">a couple</span>
+    <br>Happy Clients
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">A TON OF</span>
+    <br>Enthusiasm
+  </div>
+</div>
+
+<!-- Culture Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="culture">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>CULTURAL DIFFERENCES</h3>
+      <p>You're not in America anymore<br><br>Firstly, the language is different. Thankfully, Italians are considerate people. Most people will understand you enough to take your order at a restaurant but they will appreciate it greatly if you learned some basic Italian. Sometimes at bars, they may give you a discount on a drink if you can successfully order in Italian. If you’re not learning Italian in class, use Duolingo for some basics.<br><br>You will have to get used to public transport. Unless you wanna rack up a massive taxi bill, you are going to learn to live and love the tram. The tram system in Rome is very convenient for young people as it can take you from your living arrangement into all the action of the city in minutes. However, keep your hands in your pockets and wear your backpack on your stomach. Americans are easy to spot and a pickpocketing incident is waiting to happen if you are not careful.<br><br>Save your coins! Coins do not have much value by the American dollar but don’t lose track of your change in Roma. Italy uses the Euro system. A few two Euro coins can get you through a fun night out without you having to risk bringing your wallet out. Try to always have some cash on you as well because many places do not accept credit cards, especially if you want your drink fast at a busy bar.
+</p>
+
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="morephotos/sanwichman.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- PHOTOS -->
+<div id="photos">
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide w3-center">FUN ROMAN MOMENTS</h2>
+    <p class="w3-opacity w3-center"><i>weird adventures ahead</i></p>
+    <div>
+        <a data-fancybox="gallery" href="morephotos/EB14C93D-7398-4899-A358-F6A8D27B1684.jpeg"> <img src="morephotos/EB14C93D-7398-4899-A358-F6A8D27B1684.jpeg" alt="Robot #1" style="width:20%"> </a>
+        <a data-fancybox="gallery" href="morephotos/BE2AB3B6-F0A4-4D48-8CEE-7BE2641DE447.jpeg"> <img src="morephotos/BE2AB3B6-F0A4-4D48-8CEE-7BE2641DE447.jpeg" alt="Robot #2" style="width:20%"> </a>
+        <a data-fancybox="gallery" href="morephotos/188E47A4-78B1-4EE4-9D51-33D659501CB9.jpeg"> <img src="morephotos/188E47A4-78B1-4EE4-9D51-33D659501CB9.jpeg" alt="Robot #3" style="width:20%"> </a>
+    </div>
+</div>
+
+
+
+<!-- Explore Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="explore">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>EXPLORING ROME</h3>
+      <p>Rome is a phenomenal place for young people to explore. You could easily eat at a different restaurant every night you are there but you will find your favorites. If you are studying abroad in Rome you will most likely be living in the neighborhood of Trastevere. Trastevere is this place to be as a study abroad because it is occupied by young people. Downtown Trastevere at night features Rome’s best nightlife and overall energy. The famous “study abroad” American bars such as G-Bar, Drunken Ship, and Scholar’s Pub are all easily accessible by tram. Once you have hit these spots you can branch out into more local and obscure restaurants. Don’t stick to the same places! <br><br>On your weekends, hunt for activities to do. Take a cooking class, walk through a new neighborhood, take a tour through your own city. The best tip about traveling and time that I’ve ever heard is that when you look back on your life, you can feel like you had been somewhere forever if you did a million different things. If you did the same thing over and over it will be a short memory. THere is no reason to limit yourself in the great city of Rome. Get out of your apartment and your comfort zone every weekend to try to new restaurants, activities, tours, walks, etc.
+</p>
+
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="morephotos/IMG_2790_Original.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+
+<section>
+  <h1>FAST TRAVEL TIPS</h1>
+
+  <div class="grid" id="travel">
+      <div> BOOK TRIPS EARLY <br>Flights and trains can be extremely cheap if booked even a few weeks out. My flight to Paris from Rome was $42 booked 3 weeks out. It could have been cheaper if I planned even further in advance. Ryan Air is the cheapest go-to airline.</div>
+      <div> AIRBNB>HOTEL<br>Hotels can be a good option if you are only travelling with another person or two. If you are traveling with a large group it is way more cost effective to utilize Airbnb. You also gain a more authentic experience wherever you are traveliing by living in a unique home instead of a hotel.</div>
+      <div> HAVE ACTIVITIES PLANNED<br>Of course allocate some time to just walk around and explore whatever city you have found yourself in. However no days are to be wasted. Use TripAdvisor and find cheap tours or Pub Crawls to try and meet new people and see as much as you can in your short trip.</div>
+  </div>
+
+</section>
+
+
+<!-- FIRST HANDERS Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE FIRST HANDERS</h3>
+  <p class="w3-center w3-large">We all have studied abroad in Rome and have tips we think you should know!</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="IMG_1060-preview.JPG"  style="width:100%">
+        <div class="w3-container">
+          <h3>Michael Pasquella</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>Be as curious as you can possibly be! Getting into a routine at the beginning of the trip is good but make sure you continue pushing yourself out of your comfort zone. Always try new restaurants. Talk to new people every day. LEARN ITALIAN THE BEST YOU CAN. Rome can be the best time of your life like it was for me.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="IMG_5313.JPG"  style="width:100%">
+        <div class="w3-container">
+          <h3>Heather Toulson</h3>
+          <p class="w3-opacity">Co-owner</p>
+          <p>Rome will be one of the most memorable experiences of your life. One thing I wish I knew before was to definitely not overpack, there are plenty of stores in Rome. Also, make a list of places you’d like to visit while you’re abroad. You’re going to want to travel every weekend but make sure you leave time to explore Rome! There are so many great restaurants in Rome. Try to avoid the restaurants that are begging you to come inside. Try to find restaurants locals go to, those are usually the best.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="Screen Shot 2020-05-05 at 6.05.05 PM.png" style="width:100%">
+        <div class="w3-container">
+          <h3>Veronica Serber</h3>
+          <p class="w3-opacity">Chief Financial Officer</p>
+          <p>My first tip for studying abroad would be immersing yourself in the culture. By doing so you can get a feel of people’s habits and lifestyles. My next tip would be to get lost with a friend. The best thing to do while in a new country is to figure out where to go with your friends and of course be safe while doing so. My last tip would be to have fun. From a student who studied abroad in the fall of 2019, it was such a great experience to spend every day in Rome and have fun with my friends, especially now knowing that every memory counts because who knows when a new pandemic or any other situation can put a pause in your experience.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="IMG_7863.jpg"  style="width:100%">
+        <div class="w3-container">
+          <h3>Embrik Eyles</h3>
+          <p class="w3-opacity">Intern</p>
+          <p>My three sentences: Take advantage of the cheep flights and trains and go anywhere you want on the weekend. Make the most of every day in the city that you study in because by the end you are going to wish you saw more in your hometown. Fully immerse yourself in the culture and make friends with the locals/foreign students because it will make your experience more enjoyable and you will have some really cool friends by the time you leave.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mxp1456@miami.edu</p>
+    <br>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+  </div>
+</footer>
+
+</body>
+</html>
